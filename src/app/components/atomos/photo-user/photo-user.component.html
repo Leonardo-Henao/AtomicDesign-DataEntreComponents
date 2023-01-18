@@ -1,0 +1,6 @@
+<div
+    class="flex justify-content-center align-items-center rounded-circle photo_user {{verifyNoNullPhotoSrc() ? 'bg-secondary' : ''}} m-1">
+    <img *ngIf="!verifyNoNullPhotoSrc()" class="bg-primary w-100 h-100 rounded-circle" src="{{srcPhotoUser}}"
+        alt="Photo user">
+    <ng-icon class="align-baseline" *ngIf="verifyNoNullPhotoSrc()" name="heroUserCircle"></ng-icon>
+</div>
