@@ -1,0 +1,15 @@
+
+.list-chats{
+    max-width: 370px;
+}
+
+.section-chat{
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    overflow-y: scroll;
+
+    div{
+        height: 100%;
+    }
+}

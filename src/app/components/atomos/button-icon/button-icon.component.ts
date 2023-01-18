@@ -8,9 +8,18 @@ import { Component, Input } from '@angular/core';
 export class ButtonIconComponent {
 
   @Input()
-  nameIcon!: string;
+  nameIcon?: string;
 
   @Input()
-  titleButton!: string;
+  titleButton?: string;
+
+  @Input()
+  sizeIcon?: string;
+
+  setSizeIcon() {
+    const lengthSizeIcon = this.sizeIcon?.length;
+    if (this.sizeIcon == null || lengthSizeIcon == 0) return 'font-size: 1.3rem';
+    else return `font-size: ${this.sizeIcon}rem`;
+  }
 
 }
