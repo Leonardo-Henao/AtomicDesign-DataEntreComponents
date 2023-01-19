@@ -16,7 +16,6 @@ import { IndexChatComponent } from './pages/index-chat/index-chat.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AtomosModule,
     MoleculasModule,
     OrganismosModule
   ],

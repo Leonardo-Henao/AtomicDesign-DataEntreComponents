@@ -14,13 +14,16 @@
 .container-chat {
     width: 70%;
     height: 100vh;
-    overflow: hidden;
     background-image: url("../../../assets/whasapp_background.jpg");
     
     .container-chat-bottom-bar {
         width: 70%;
     }
 
+    .container-chat-chat{
+        overflow: hidden;
+
+    }
     .container-chat-chat:hover {
         overflow-y: scroll;
     }

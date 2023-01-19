@@ -15,6 +15,7 @@ import { NgIconsModule } from '@ng-icons/core';
 import { ItemChatComponent } from './item-chat/item-chat.component';
 import { BottomBarChatComponent } from './bottom-bar-chat/bottom-bar-chat.component';
 import { BubbleChatComponent } from './bubble-chat/bubble-chat.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
