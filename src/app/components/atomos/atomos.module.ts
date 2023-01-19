@@ -4,18 +4,17 @@ import { PhotoUserComponent } from './photo-user/photo-user.component';
 import { heroUserCircle } from '@ng-icons/heroicons/outline'
 import { NgIconsModule } from '@ng-icons/core';
 import { ButtonIconComponent } from './button-icon/button-icon.component';
-import { InputSearchComponent } from './input-search/input-search.component';
-import { GroupSearchComponent } from '../moleculas/group-search/group-search.component';
-import { InputTextPrincipalComponent } from './input-text-principal/input-text-principal.component';
-import { InputTextSecondaryComponent } from './input-text-secondary/input-text-secondary.component';
+import { TextViewResetComponent } from './text-view-reset/text-view-reset.component';
+import { InputTextBasicComponent } from './input-text-basic/input-text-basic.component';
+import { TextViewboldComponent } from './text-view-bold/text-view-bold.component';
 
 @NgModule({
   declarations: [
     PhotoUserComponent,
     ButtonIconComponent,
-    InputSearchComponent,
-    InputTextPrincipalComponent,
-    InputTextSecondaryComponent
+    TextViewboldComponent,
+    InputTextBasicComponent,
+    TextViewResetComponent
   ],
   imports: [
     CommonModule,
@@ -23,12 +22,12 @@ import { InputTextSecondaryComponent } from './input-text-secondary/input-text-s
       heroUserCircle
     })
   ],
-  exports:[
+  exports: [
     ButtonIconComponent,
     PhotoUserComponent,
-    InputSearchComponent,
-    InputTextPrincipalComponent,
-    InputTextSecondaryComponent
+    InputTextBasicComponent,
+    TextViewboldComponent,
+    TextViewResetComponent
   ]
 })
 export class AtomosModule { }

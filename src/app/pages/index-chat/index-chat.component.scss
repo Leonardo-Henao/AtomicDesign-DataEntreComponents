@@ -1,15 +1,27 @@
+.container-options {
+    width: 30%;
 
-.list-chats{
-    max-width: 370px;
+    .container-options-list-chats {
+        overflow: hidden;
+        height: 510px;
+    }
+
+    .container-options-list-chats:hover {
+        overflow-y: scroll;
+    }
 }
 
-.section-chat{
+.container-chat {
+    width: 70%;
     height: 100vh;
-    position: sticky;
-    top: 0px;
-    overflow-y: scroll;
+    overflow: hidden;
+    background-image: url("../../../assets/whasapp_background.jpg");
+    
+    .container-chat-bottom-bar {
+        width: 70%;
+    }
 
-    div{
-        height: 100%;
+    .container-chat-chat:hover {
+        overflow-y: scroll;
     }
 }

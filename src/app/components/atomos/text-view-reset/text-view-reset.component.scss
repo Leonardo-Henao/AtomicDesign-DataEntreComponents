@@ -1,0 +1,11 @@
+div {
+    display: block;
+    width: 100%;
+
+    span {
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}

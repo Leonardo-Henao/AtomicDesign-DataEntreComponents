@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'item-chat',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./item-chat.component.scss']
 })
 export class ItemChatComponent {
+
+  @Input()
+  srcPhotoUser?: string;
+
+  @Input()
+  nameUser?: string;
+
+  @Input()
+  timeMessage?: string;
 
 }

@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-center align-items-center border-top">
+    
+    <button-icon nameIcon="matTagFacesOutline"></button-icon>
+    <button-icon nameIcon="heroPaperClip" titleButton="Adjuntar"></button-icon>
+
+    <input-text-basic class="w-75" placeHolder="Escribe un mensaje aquí" (messageEvent)="receivedMessage($event)"></input-text-basic>
+
+    <button-icon class="ms-3" *ngIf="!PrepareToSendMessage" nameIcon="matMicRound"></button-icon>
+    <button-icon class="ms-3" *ngIf="PrepareToSendMessage" nameIcon="matSend"></button-icon>
+
+</div>

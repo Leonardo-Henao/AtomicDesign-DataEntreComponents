@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputSearchComponent } from './input-search.component';
+import { TextViewResetComponent } from './text-view-reset.component';
 
-describe('InputSearchComponent', () => {
-  let component: InputSearchComponent;
-  let fixture: ComponentFixture<InputSearchComponent>;
+describe('InputTextSecondaryComponent', () => {
+  let component: TextViewResetComponent;
+  let fixture: ComponentFixture<TextViewResetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InputSearchComponent ]
+      declarations: [ TextViewResetComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(InputSearchComponent);
+    fixture = TestBed.createComponent(TextViewResetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

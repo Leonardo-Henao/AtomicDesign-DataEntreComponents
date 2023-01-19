@@ -1,14 +1,14 @@
-<div class="d-flex justify-content-between align-items-center">
+<div class="container d-flex align-content-between align-items-center">
     <!-- nameUser -->
-    <input-text-principal nameUser="{{nameUser}}"></input-text-principal>
+    <input-text-principal class="w-100" nameUser="{{nameUser}}"></input-text-principal>
 
     <!-- valueText -->
-    <input-text-secondary valueText="{{valueTime}}"></input-text-secondary>
+    <text-view-reset valueText="{{valueTime}}"></text-view-reset>
+
 </div>
-<div class="info-chat d-flex justify-content-between align-items-center">
+<div class="container d-flex align-content-between align-items-center container-message">
     <!-- valueText sizeText-->
-    <input-text-secondary sizeText="90"
-        valueText="{{valueMessage}}"></input-text-secondary>
+    <text-view-reset class="input-message" sizeText="90" valueText="{{valueMessage}}"></text-view-reset>
 
     <!-- nameIcon, titleButton, sizeIcon -->
     <button-icon nameIcon="matKeyboardArrowDownRound"></button-icon>

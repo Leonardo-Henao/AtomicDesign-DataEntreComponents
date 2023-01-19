@@ -1,0 +1,11 @@
+<div class="container d-block p-2">
+    <div class="d-block w-50 shadow-sm p-2 rounded {{sendMessage ? 'bg-send ms-auto': 'bg-white'}}">
+        <span class="d-block">
+            {{message}}
+        </span>
+        <div class="d-flex align-items-center justify-content-end p-0 container-time">
+            <text-view-reset class="text-time-message text-end" valueText="{{timeMessage}}" fontSize="0.7"></text-view-reset>
+            <button-icon *ngIf="sendMessage" nameIcon="bootstrapCheck2All"></button-icon>
+        </div>
+    </div>
+</div>
