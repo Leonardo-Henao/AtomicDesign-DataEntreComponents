@@ -16,4 +16,7 @@ export class ItemChatComponent {
   @Input()
   timeMessage?: string;
 
+  @Input()
+  message?: string;
+
 }
